@@ -10,6 +10,7 @@
 - https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python?view=azure-devops
 	- remember to add MS hosted parallel jobs
 	- may need your account
+- https://olohmann.github.io/azure-hands-on-labs/labs/06_cicd_azure_devops/cicd_azure_devops.html
 
 ## Data Factory Linking
 - go to Data Factory. In the upper left corner, named "Data Factory", and shows some drop-down options, click on Set Up Code Repository.
@@ -20,11 +21,12 @@
 - configure a repository:
 	- Choose Project Name (the one we just created)
 	- Git Repository Name: We can create a new one or use the existing repository when we create it.
-	- Collaboration Branch: I suggest you stick with Master. This is where all your branching will merge, and a copy of all the changes you’ve made will be published to the Azure Data Factory that runs via trigger or event.
+	- Collaboration Branch: I suggest you stick with Master. 
+		-This is where all your branching will merge, and a copy of all the changes you’ve made will be published to the Azure Data Factory that runs via trigger or event.
 	- Then click Save.
 - Once a user can see their ADF page where Save as Template is grayed out, but underneath that, you’ll see two new Save buttons pop up. 
 	- These buttons will allow if the saved changes the user made are different than they do and need to be done, which is to publish changes to the Data Factory.
-- Now, all configurations and code repository are Saved, Save All, and Publish Buttons. Additionally, the user will be asked what branch they want. A user can create a new one or the existing (Master) branch.
+- Now, all configurations and code repository are Saved, Save All, and Publish Buttons. 	- Additionally, the user will be asked what branch they want. A user can create a new one or the existing (Master) branch.
 
 ## Branching
 - Try to use the name in such a way that differentiates when working in a team.
