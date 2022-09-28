@@ -53,7 +53,7 @@
 	- Select template -> Empty job -> name: "ADF build pipeline"
 	- Go to triggers -> Enable continuous integration
 	- Go to tasks -> In agent job "+" -> Select "Publish build artifact" -> wait
-	- Select added "Publish Artifact ffrop" -> change name "ARMTemplates" -> path to publish: choose the root folder of repository
+	- Select added "Publish Artifact frop" -> change name "ARMTemplates" -> path to publish: choose the root folder of repository
 	- Save and queue -> add comment -> save and run -> wait and review output
 	- Review "Artifacts"
 - Create release pipeline:
